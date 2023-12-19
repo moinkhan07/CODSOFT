@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+} 
+#navbar{
+    padding: 10px 5%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid grey;
+    background-color: #333;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#logo{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(255, 166, 64);
+    cursor: pointer;
+}
+#project_{
+    height: 50px;
+    background-color: rgb(244, 244, 244);
+}
+#home_{
+    height: 50px;
+    background-color: rgb(244, 244, 244);
+}
+
+                            /* ======================Navbar end here========================== */
+#home{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(244, 244, 244);
+}
+#home>h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+   padding-top: 160px;
+    font-size: 60px;
+    font-weight: bold;
+}
+#home>h2{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+#hi{
+    color: rgb(255, 166, 64);
+}
+#about_{
+    height: 55px;
+    background-color: rgb(244, 244, 244);
+}
+#social{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+#social>a>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+                        /* ------------------------social end here----------------------------- */
+#about{
+    width: 100%;
+    /* height: 550px; */
+    height: auto;
+    background-color: #333;
+    padding: 0 9%;
+    padding-bottom: 40px;
+    margin: auto;
+}
+#about>h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    color: rgb(255, 166, 64);
+}
+#about_in{
+    display: flex;
+    justify-content: space-around;
+}
+#photo>img{
+    width: 310px;
+    border-radius: 3%;
+    border: 1px solid rgb(109, 109, 109);
+}
+#info{
+    width: 40%;
+}
+#info>h1{
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+#info>p{
+    font-size: 18px;
+    color: white;
+    line-height: 33px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+#viewbtn{
+    background-color: white;
+    padding: 12px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+#downbtn{
+    background-color: white;
+    padding: 12px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#viewbtn:hover{
+    background-color: #333;
+    color: rgb(255, 166, 64);
+    border: 1px solid rgb(255, 166, 64);
+}
+#downbtn:hover{
+    background-color: #333;
+    color: rgb(255, 166, 64);
+    border: 1px solid rgb(255, 166, 64);
+}
+
+/* -------------------------------------About Me end here----------------------------------------------- */
+
+#tech-stack{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(244, 244, 244);
+}
+#tech-stack>h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(255, 166, 64);
+}
+#toolstitle{
+    margin-top: 40px;
+}
+#all_logo{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap: 25px 0px;
+}
+#all_logo>div{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    border: 3px solid #333;
+    border-radius: 20px;
+}
+#all_logo>div>img{
+    width: 100px;
+    height: 100px;
+}
+
+#all_logo>.neeche{
+    display:inline-block;
+}
+#all_logo>.neeche>h2{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #333;
+}
+#skill_{
+    height: 60px;
+    background-color: rgb(244, 244, 244);
+}
+
+/* ---------------------------------------Skills end here---------------------------------- */
+#projects{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #333;
+}
+#projects>h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+    padding-top: 35px;
+    color: rgb(255, 166, 64);
+}
+.project_{
+    width: 90%;
+    height: auto;
+    border: 1px solid rgb(244, 244, 244);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+#projects>.project_>.project_img{
+    width: 500px;
+}
+#projects>.project_>.project_img>img{
+    width: 100%;
+    border-radius: 20px;
+}
+#projects>.project_>.projects_Info>p{
+    font-size: 18px;
+    color: white;
+    line-height: 33px;
+    font-weight: lighter;
+}
+#projects>.project_>.projects_Info>h1{
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+#projects>.project_>.projects_Info>.project_btn{
+    margin-top: 30px;
+}
+#projects>.project_>.projects_Info>.project_btn>.live_code{
+    background-color: white;
+    padding: 12px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#projects>.project_>.projects_Info> .project_btn>.live_code:hover{
+    background-color: #333;
+    color: rgb(255, 166, 64);
+    border: 1px solid rgb(255, 166, 64);
+}
+.techstacktags{
+    font-size: 20px;
+    color:  rgb(255, 166, 64);
+}
+#contact{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(244, 244, 244);
+}
+#contact>h1{
+text-align: center;
+font-size: 40px;
+margin-bottom: 25px;
+padding-top: 35px;
+color: rgb(255, 166, 64);
+}
+#contact_div{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+#contact_div>.contact_div_1{
+    width:25%;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    border: 3px solid #333;
+    border-radius: 20px;
+    align-items: center;
+    color: #333;
+   justify-content: space-around;
+   font-size: 20px;
+   cursor: pointer;
+}
+#contact_div>.contact_div_1>a{
+    text-decoration: none;
+    color: #333;
+}
+#contact_div>.contact_div_1>img{
+    width: 45px;   
+}
+
+#contact_div>.contact_div_2{
+    width:28%;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border: 3px solid #333;
+    border-radius: 20px;
+    align-items: center;
+    color: #333;
+   justify-content: space-around;
+   font-size: 20px;
+   cursor: pointer;
+}
+#contact_div>.contact_div_2>a{
+    text-decoration: none;
+    color: #333;
+}
+#contact_div>.contact_div_2>img{
+    width: 45px;   
+}
+#contact_div>.contact_div_1:hover{
+    background-color: #d9d9d9;
+}
+#contact_div>.contact_div_2:hover{
+    background-color: #d9d9d9;
+}
+
+#contact_logo{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact_logo>div>a>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#copyright{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+

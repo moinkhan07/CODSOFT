@@ -1,0 +1,55 @@
+#welcome{
+    width: 100%;
+    height: 500px;
+    background: rgb(45,155,255);
+    background: linear-gradient(147deg, rgba(45,155,255,1) 0%, rgba(2,122,231,1) 100%);
+}
+#welcomeData{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#leftWelcome{
+    width: 55%;
+    height: 80%;
+    color: white;
+}
+#leftWelcome>p{
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+#leftWelcome>.informationWelcome{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#leftWelcome>h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+#leftWelcome>button{
+    width: 200px;
+    height: 45px;
+    color: white;
+    background-color: #00D265;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#leftWelcome>button:hover{
+    background-color: #00b357;
+}
+#rightWelcome{
+    width: 45%;
+    height: 70%;
+}
+#rightWelcome>img{
+    width: 475px;
+}

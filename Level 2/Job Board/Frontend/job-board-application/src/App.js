@@ -1,8 +1,16 @@
+import './Styles/Navbar.css';
+import './Styles/Welcome.css';
+import './Styles/JobSearch.css';
+import JobSearch from './Components/JobSearch.js';
+import Welcome from './Components/Welcome.js';
+import Navbar from './Components/Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Job Board</h1>
+     <Navbar />
+     <Welcome />
+     <JobSearch />
     </div>
   );
 }

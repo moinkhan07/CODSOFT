@@ -1,0 +1,75 @@
+#jobList{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 0;
+}
+#jobList > .jobInfo{
+    width: 95%;
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+#jobList > .jobInfo>.companyImage{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+}
+#jobList > .jobInfo>.companyImage>img{
+    width: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jobList > .jobInfo>.companyImage>p{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(48, 44, 44);
+}
+#jobList > .jobInfo>.companyInfo{
+    width: 75%;
+    height: 100%;
+}
+#jobList > .jobInfo>.companyInfo>.jobTitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(42, 39, 39);
+    margin-bottom: 5px;
+}
+#jobList >.jobInfo>.companyInfo>.jobLocation{
+    font-size: 15px;
+    color: rgb(47, 47, 47);
+    margin-bottom: 5px;
+}
+#jobList > .jobInfo>.companyInfo>.jobPostedDate{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 20px;
+}
+#jobList > .jobInfo>.companyInfo>.jobShortDesc{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#jobList > .jobInfo>.companyInfo>.readMore{
+    color: green;
+    cursor: pointer;
+    font-size: 14px;
+}
+#jobList > .jobInfo>.companyInfo>.readMore:hover{
+    color: rgb(0, 185, 0);
+}

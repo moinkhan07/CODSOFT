@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 #navbar>.middle>p:hover{
-  color: rgb(63, 57, 57);
+  color: gold;
 }
 #navbar>.right{
   width: 22%;
@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 #navbar>.right>p:hover{
-  color: black;
+  color: gold;
 }
 #navbar>.right>button{
   width: 140px;

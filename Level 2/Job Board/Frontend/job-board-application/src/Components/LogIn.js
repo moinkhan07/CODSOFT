@@ -13,10 +13,10 @@ const LogIn = () => {
   }
   return (
     <div id="loginDiv">
-    {/* <Link to={'/'}><img src={require('../Assets/logo.png')} /></Link> */}
     <h2>Welcome To Job Board</h2>
     <input  name="userEmail" placeholder="Enter Email" type={"email"}/>
     <input  name="userPassword"  placeholder="Enter Password" type={"password"}/>
+    <p>Forgot password?</p>
     <button>Log In</button>
     <hr/>
     <NavLink to={'/register'} style={navStyleLink}><p id="newUser">New User? Sign Up</p></NavLink>

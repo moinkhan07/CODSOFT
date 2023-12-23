@@ -1,0 +1,78 @@
+#signupDiv{
+    width: 28%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: rgb(45,155,255);
+    background: linear-gradient(147deg, rgba(45,155,255,1) 0%, rgba(2,122,231,1) 100%);
+    padding: 20px 15px;
+}
+#signupDiv img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#signupDiv>h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+#signupDiv>input{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+#signupDiv>input::placeholder{
+    color: rgb(32, 29, 29);
+}
+#signupDiv>button{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #00D265;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+#signupDiv>button:hover{
+    background-color: #00b959;
+}
+#signupDiv>hr{
+    width: 100%;
+    border: none;
+    border-top: 1px dashed white;
+    margin-top: 20px;
+    outline: none;
+}
+#already{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+#already:hover{
+    color: black;
+}
+@media only screen and (max-width :766px){
+    #signupDiv{
+        width: 80%;
+        margin-top: 40px;
+    }
+    #signupDiv>h2{
+        font-size: 22px;
+    }
+}

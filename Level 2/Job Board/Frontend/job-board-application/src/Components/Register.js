@@ -14,7 +14,6 @@ const Register = () => {
   return (
     <>
       <div id="signupDiv">
-        <Link to={'/'}><img src={require('../Assets/logo.png')} /></Link>
         <h2>Welcome To Job Board</h2>
         <input  name="firstName"  placeholder="Enter FirstName" type={"text"}/>
         <input  name="lastName"  placeholder="Enter LastName" type={"text"}/>

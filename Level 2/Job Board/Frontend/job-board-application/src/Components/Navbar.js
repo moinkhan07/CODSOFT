@@ -3,6 +3,7 @@ import logo from '../Assets/logo.png';
 import {Link,NavLink,useNavigate} from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const navStyleLink = ()=>{
     return{
       cursor: "pointer",
@@ -13,6 +14,15 @@ const Navbar = () => {
   const pendingAlert = ()=>{
     window.alert("Pending...");
   }
+  const handlePostJobClick = () => {
+    const employerEmail = localStorage.getItem('employerEmail');
+
+    if (employerEmail) {
+      navigate('/postjob');
+    } else {
+      window.alert("Please login as employer to post a job.");
+    }
+  };
   return (
     <div id='navbar'>
       <div className="left">
@@ -33,7 +43,7 @@ const Navbar = () => {
       </div>
       <div className="right">
         <NavLink to={'/login'} style={navStyleLink}><p>Log in</p></NavLink>
-        <NavLink to={'/postjob'}><button>Post A Job</button></NavLink>
+        <button onClick={handlePostJobClick}>Post A Job</button>
       </div>
     </div>
   )

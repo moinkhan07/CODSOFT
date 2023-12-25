@@ -1,9 +1,17 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom';
 
 const JobList = () => {
+
+    const navigate = useNavigate();
+
+    const goToDetailPage = ()=>{
+        navigate('/detailjob');
+    }
+
   return (
     <div id='jobList'>
-        <div className='jobInfo'>
+        <div className='jobInfo' onClick={goToDetailPage}>
             <div className='companyImage'>
                 <img src='https://s3-symbol-logo.tradingview.com/amazon--600.png' alt='amazon' />
                 <p>Amazon</p>
@@ -16,7 +24,7 @@ const JobList = () => {
                 <p className='readMore'>Read More</p>
             </div>
         </div>
-        <div className='jobInfo'>
+        <div className='jobInfo' >
             <div className='companyImage'>
                 <img src='https://cdn.icon-icons.com/icons2/730/PNG/512/paytm_icon-icons.com_62778.png' alt='paytm' />
                 <p>Paytm</p>

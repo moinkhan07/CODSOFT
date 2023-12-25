@@ -41,6 +41,5 @@ public class Job {
 	private String jobType;
 	
 	private String jobRolesAndReponsibilities;
-	
 
 }

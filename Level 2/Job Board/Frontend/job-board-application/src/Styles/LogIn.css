@@ -3,8 +3,6 @@
     margin: auto;
     margin-top: 80px;
     border-radius: 10px;
-    /* background: rgb(45,155,255);
-    background: linear-gradient(147deg, rgba(45,155,255,1) 0%, rgba(2,122,231,1) 100%); */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     padding: 20px 15px;
 }
@@ -33,6 +31,19 @@
     padding-left: 10px;
     font-size: 15px;
     color: rgb(38, 38, 38);
+}
+#isEmployer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+#isEmployer>.checkBox{
+    width: 8%;
+    height: 15px;
+    box-shadow: none;
 }
 #loginDiv>input::placeholder{
     color: rgb(32, 29, 29);

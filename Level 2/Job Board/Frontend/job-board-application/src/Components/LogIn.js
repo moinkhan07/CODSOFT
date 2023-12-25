@@ -16,6 +16,10 @@ const LogIn = () => {
     <h2>Welcome To Job Board</h2>
     <input  name="userEmail" placeholder="Enter Email" type={"email"}/>
     <input  name="userPassword"  placeholder="Enter Password" type={"password"}/>
+    <div id='isEmployer'>
+    <input type={"checkbox"} className="checkBox" />
+    <p>Are you an employer?</p>
+    </div>
     <p>Forgot password?</p>
     <button>Log In</button>
     <hr/>

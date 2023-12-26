@@ -1,0 +1,44 @@
+#userDashboard{
+    width: 100%;
+    min-height: 90.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+#userSidebar{
+    width: 20%;
+    min-height: 90.5vh;
+    background: #2d9bff;
+    background: linear-gradient(147deg, rgba(45,155,255,1) 0%, rgba(2,122,231,1) 100%);
+    padding-top: 30px;
+}
+#userSidebar>ul>li{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: rgb(74, 64, 64);
+    font-weight: 600;
+    cursor: pointer;
+}
+#userSidebar>ul>li>img{
+    width: 20px;
+    margin-right: 25px;
+}
+#userSidebar>ul>li:hover{
+    background-color: #b9bec2;
+    color: white;
+}
+
+
+
+#userProfileData{
+    width: 78%;
+    min-height: 90.5vh;
+    border: 1px solid black;
+}
+

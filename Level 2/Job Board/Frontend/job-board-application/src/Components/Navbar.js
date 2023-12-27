@@ -78,6 +78,7 @@ const Navbar = () => {
                   width:'105px',
                   position: 'absolute',
                   top: '100%',
+                  backgroundColor:'#2d9bff',
                   right: 14,
                   zIndex: 1,
                   textAlign:'center',

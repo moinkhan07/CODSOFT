@@ -8,6 +8,7 @@ import './Styles/PostJob.css';
 import './Styles/JobDetails.css';
 import './Styles/UserDashboard.css';
 import './Styles/EmployerDashboard.css';
+import './Styles/DashboardComponent.css';
 import JobList from './Components/JobList';
 import JobSearch from './Components/JobSearch.js';
 import Welcome from './Components/Welcome.js';
